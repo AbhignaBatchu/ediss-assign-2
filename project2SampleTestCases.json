@@ -2,7 +2,7 @@
   "config": {
     "target": "http://52.91.191.113:9000",
     "phases": [
-      {"duration": 1, "arrivalCount": 1}
+      {"duration": 20, "arrivalCount": 20}
     ],
     "payload": [
     {
