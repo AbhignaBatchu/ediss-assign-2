@@ -46,9 +46,9 @@ app.post('/registerUser', function(req,res){
 
   var check = "select * from reguser where username = ? LIMIT 1";
   con.query(check, [username], function(err,rows){
-    if(err) throw err;
+    //if(err) throw err;
 
-    if(rows.length>=1){
+    if(err || rows.length>=1){
        res.json({'message':'The input you provided is not valid'});
     }
 else{
