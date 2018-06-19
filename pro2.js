@@ -337,7 +337,7 @@ app.post('/updateInfo', function(req,res){
 
     app.post('/viewProducts', function(req,res){
       var id = req.body.asin;
-      var pgroup = req.body.groups;
+      var pgroup = req.body.group;
       var keyword = req.body.keyword;
 
       if(id){
