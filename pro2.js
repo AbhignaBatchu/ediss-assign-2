@@ -20,10 +20,10 @@ app.use(bodyParser.urlencoded({
 }));
 
 var con = mysql.createConnection({
-  host:"localhost",
-  user: "root",
-  password: "admin",
-  database: "ediss"
+  host:"mysql-instance1.cejcrxrmql06.us-east-1.rds.amazonaws.com",
+  user: "abhignabatchu",
+  password: "admin123",
+  database: "edissdb2"
 });
 
 con.connect(function(err){
