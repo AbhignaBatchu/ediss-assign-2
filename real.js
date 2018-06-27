@@ -390,6 +390,6 @@ app.post('/updateInfo', function(req,res){
 });
 
 
-app.listen(3306, function(){
-  console.log('Listening to port 3306');
+app.listen(9000, function(){
+  console.log('Listening to port 9000');
 });
